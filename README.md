@@ -1,8 +1,7 @@
 # ChatBot 🤖
 
 ## Description
-This is a simple chatbot that can be used to answer questions about the weather, time, and date. It can also tell jokes and play games. The chatbot is written in Python and uses the ChatterBot
-
+This is a simple chatbot that can be used to answer questions about Documentaries , don't know what to watch easy just ask the bot and he will help you figure it out 😆
 
 ## Installation 🔥
 To install the chatbot, you will need to install the following packages:
