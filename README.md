@@ -10,11 +10,20 @@ To install the chatbot, you will need to install the following packages:
 git clone <url>
 ```
  
+ 
+ 
 ## Virtual Environment 🔥
 
 ```bash
 py -m venv env
 ```
+
+## Notice ‼️ 
+
+```bash
+Before running the app you need to install all the required dependencies 
+```
+
 ## Usage 🔥
 
 activate the virtual environment by running the following command:
