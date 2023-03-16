@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "sass": "^1.59.2",
+    "scikit-learn": "^0.1.0",
+    "whitenoise": "^0.0.1"
+  }
+}

@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing:border-box;
+}
+body{
+    background:linear-gradient(90deg,#FD9609 0%,#FD9609 40%,lightblue 40%,lightblue 100% );
+
+
+
+}
+.contactUs{
+    padding: 40px 100px;
+    margin: auto;
+}
+
+.contactUs .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+
+}
+.contactUs .title h2{
+    color:#fff;
+    font-weight: bolder;
+}
+.box{
+    position: relative;
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    grid-template-rows: 5fr 4fr;
+    grid-template-areas:
+    "form bot-img"
+    "form info";
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+.form {
+    grid-area: form;
+}
+.bot-img {
+    grid-area:bot-img ;
+}
+.info {
+    grid-area: info;
+}
+.contact{
+    padding:40px;
+    background:#fff;
+    box-shadow: 0px 5px 35px rgba(0,0,0,15);
+    border-radius: 10px;
+}
+
+.contact h3{
+    color:#0e3959;
+    font-weight: 500;
+    font-size:1.4em;
+    margin-bottom:10px;
+}
+/*styling form*/
+.formBox{
+    position: relative;
+    width: 100%;
+}
+.formBox .ligne1{
+    display: flex;
+    gap:20px;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 10px;
+    width:50%;
+}
+
+.formBox .ligne2 .inputBox{
+    width:100%;
+}
+
+.inputBox span{
+    color:#FD9609;
+    margin:10px 0 10px 0;
+    font-weight:500;
+}
+
+.inputBox input{
+    padding:10px;
+    font-size: 1.1em;
+    outline:none;
+    border:2px solid #333;
+    border-radius: 10px;
+}
+.inputBox textarea{
+    padding:10px;
+    font-size: 1.1em;
+    outline:none;
+    border:2px solid #333;
+    border-radius:10px;
+    resize: none;
+    min-height: 220px;
+    margin-bottom:10px;
+}
+
+.inputBox input[type="submit"]{
+    background:#FD9609;
+    color:#fff;
+    border: none;
+    font-size: 1.1em;
+    max-width:150px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+.inputBox input[type="submit"]:hover{
+    color: #fff;
+    background-color: lightblue;
+    transition-duration:500ms;
+}
+
+.inputBox ::placeholder{
+    color:#999;
+}
+
+/*info styling*/
+.info{
+    background: lightblue;
+    border:5px solid #FFF;
+    border-radius: 10px;
+}
+.info h3{
+    color:#fff;
+    text-align: center;
+}
+.info .infoBox div{
+    display: flex;
+    align-items: center;
+    margin-bottom:10px;
+}
+.info .infoBox div span{
+    min-width:40px;
+    height: 40px;
+    color:#fff;
+    background: #FD9609;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:1.5em;
+    border-radius: 50%;
+    margin-right:15px;
+}
+
+.info .infoBox div a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.social{
+    margin-top: 40px;
+    display: flex;
+}
+
+.social li{
+    list-style:none;
+    margin-right: 15px;
+}
+.social li a{
+    font-size:2em;
+    color:#ccc;
+}
+.social li a:hover{
+   color:#fff;
+}
+
+.botPhone{
+    height: 100%;
+    width: 100%;
+    border-radius:10px;
+}
+.bot-img{
+    padding:0;
+    border:5px solid #fff;
+    border-radius: 10px;
+}
+.send-icon{
+    color:#fff;
+
+}
+
+.floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.contact-icon{
+    margin-left:10px;
+
+}
+@keyframes floating {
+    0% { transform: translate(0px,  0px); }
+    50%  { transform: translate(10px, 10px); }
+    100%   { transform: translate(-10, -10px); }
+}
+.form{
+    border-left:20px solid lightblue;
+}
+
+/*Responsive design*/
+@media(max-width:991px){
+    body{
+        background: lightblue;
+    }
+    .contactUs{
+        padding:20px;
+    }
+    .box{
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "form"
+        "info"
+        "bot-img";
+
+     }
+     .bot-img{
+        min-height: 300px;
+     }
+
+     .formBox .ligne1{
+        display: flex;
+        gap:0;
+        flex-direction: column;
+     }
+     .inputBox{
+       width:100%
+     }
+     .contact{
+        padding:30px;
+     }
+     .bot-img{
+        min-height:300px;
+        padding: 0;
+     }
+}
+.my-li{
+    margin-left: 70px;
+    padding: 20px;
+    font-size: 20px;
+}
+a{
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.my-img{
+    margin-left: 50px;
+}
+

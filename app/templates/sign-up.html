@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>sign-up</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root {
+    --primary-color: #FD9609;
+    --secondary-color: #4b2f9f;
+    --gray-color: #999;
+}
+body{
+    background:linear-gradient(90deg,#FD9609 0%,#FD9609 40%,#4b2f9f 40%,#6946d6 100% );
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 45px;
+    width: 500px;
+    max-width: 80%; box-shadow: 0px 5px 35px rgba(0,0,0,15);
+    border-left:20px solid #4b2f9f;
+}
+
+@media (max-width: 480px) {
+    .box {
+        padding: 75px 25px;
+    }
+}
+
+.box h1 {
+    font-size: 2em;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 45px;
+    background: #4b2f9f;
+    width:250px;
+    margin:auto;
+    color:#fff;
+    padding:10px;
+    border-radius: 10px;
+    border-right:30px solid #FD9609;
+
+}
+
+.box form label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 3px;
+    font-weight: 500;
+    color: #FD9609;
+}
+
+.box form div {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--gray-color);
+}
+
+.box form div:hover {
+    border-bottom-color: var(--primary-color);
+    transition-duration: 500ms;
+}
+
+.box form div{
+    margin-bottom: 35px;
+}
+
+.box form div i {
+    font-size: 1.1em;
+    padding-left: 10px;
+    color: var(--gray-color);
+    transition-duration: 500ms;
+}
+
+.box form div:hover i {
+    color: var(--secondary-color);
+}
+
+.box form div input {
+    font-size: 1.1em;
+    outline: none;
+    border: none;
+    padding: 10px;
+    min-width: 0;
+    flex: 1;
+}
+
+.box form div input::placeholder {
+    opacity: 1;
+    color: var(--gray-color);
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.box a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+}
+
+.box a:hover {
+    color: var(--primary-color);
+}
+
+.box form .sign-in {
+    margin-top: 15px;
+    float: right;
+    font-size: 0.8em;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.box form input[type="submit"] {
+    font-size: 1.1em;
+    font-weight: 600;
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 15px;
+    margin-top: 45px;
+    border-radius:250px;
+    transition-duration: 500ms;
+    letter-spacing: 1px;
+}
+
+.box form input[type="submit"]:hover {
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+.box .sign-up {
+    margin-top: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+.fullName{
+    margin-top:25px;
+}
+
+.already{
+    color:#000;
+}
+
+    </style>
+
+    <div class="container">
+
+        <div class="box">
+            <h1 class="title"><i class="fa-solid fa-user-plus"></i>  Sign-up</h1>
+            <form action="" method="post">
+                {% csrf_token %}
+                <label class="fullName">Username*</label>
+                <div>
+                    <i class="fa-solid fa-address-book"></i>
+                    <input type="text" id="username" placeholder="TarekdocBot" name="username" required>
+                </div>
+
+                <label>Email*</label>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="text" placeholder="example@email.com" name="email" id="email" required>
+                </div>
+                <label>Password*</label>
+                <div>
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" id="password1" placeholder="***********" name="password1" required>
+                </div>
+                <label>Confirm password*</label>
+                <div>
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" id="password2" placeholder="***********" name="password2" required>
+                </div>
+               <a href="{% url 'login' %}" class="sign-in"><span class="already">Already have an account? </span>Log in</a>
+                <input type="submit" value="Sign-up">
+            </form>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/c24812b27e.js" crossorigin="anonymous"></script>
+</body>
+</html>

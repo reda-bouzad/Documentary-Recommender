@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="21cfc2a2-4361-4e72-b1cd-b77085a9ed7f" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MbFyRGduWWhffevHrgKofDLTaN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/reda/Documentary-Recommender",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/images" />
+      <recent name="$PROJECT_DIR$/app/templates" />
+      <recent name="$PROJECT_DIR$/static/src/images" />
+      <recent name="$PROJECT_DIR$/static/src/styles" />
+      <recent name="$PROJECT_DIR$/app/templates/static/style" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django Server.chatapp-forTarik2">
+    <configuration name="chatapp-forTarik2" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Documentary-Recommender" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="chatapp" type="Python.DjangoServer" factoryName="Django server">
+      <module name="chatapp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21cfc2a2-4361-4e72-b1cd-b77085a9ed7f" name="Changes" comment="" />
+      <created>1678028629589</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678028629589</updated>
+      <workItem from="1678028636602" duration="1653000" />
+      <workItem from="1678031269313" duration="4742000" />
+      <workItem from="1678094325920" duration="130000" />
+      <workItem from="1678094815348" duration="104000" />
+      <workItem from="1678126470256" duration="1553000" />
+      <workItem from="1678128193072" duration="61000" />
+      <workItem from="1678128275103" duration="817000" />
+      <workItem from="1678129112601" duration="1581000" />
+      <workItem from="1678130711373" duration="1242000" />
+      <workItem from="1678131972438" duration="723000" />
+      <workItem from="1678136857391" duration="167000" />
+      <workItem from="1678188516220" duration="293000" />
+      <workItem from="1678440291767" duration="25000" />
+      <workItem from="1678706430715" duration="408000" />
+      <workItem from="1678706840756" duration="44000" />
+      <workItem from="1678708793377" duration="599000" />
+      <workItem from="1678710145230" duration="261000" />
+      <workItem from="1678710424252" duration="790000" />
+      <workItem from="1678711235075" duration="6169000" />
+      <workItem from="1678718817458" duration="839000" />
+      <workItem from="1678719681240" duration="1779000" />
+      <workItem from="1678728699139" duration="529000" />
+      <workItem from="1678729249775" duration="3273000" />
+      <workItem from="1678732729578" duration="5917000" />
+      <workItem from="1678738820324" duration="1707000" />
+      <workItem from="1678740563111" duration="2154000" />
+      <workItem from="1678742744495" duration="2610000" />
+      <workItem from="1678745411135" duration="51000" />
+      <workItem from="1678747955435" duration="3973000" />
+      <workItem from="1678751952839" duration="244000" />
+      <workItem from="1678752224525" duration="3325000" />
+      <workItem from="1678783382902" duration="5011000" />
+      <workItem from="1678974513663" duration="28000" />
+      <workItem from="1679004617872" duration="355000" />
+      <workItem from="1679005128782" duration="279000" />
+      <workItem from="1679005408966" duration="434000" />
+      <workItem from="1679005844493" duration="1110000" />
+      <workItem from="1679007377651" duration="662000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

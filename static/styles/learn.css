@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+    background: lightblue;
+    font-family: 'Poppins';
+}
+
+.card-header{
+    font-weight: bolder;
+    color:#FD9609;
+}
+.my-li{
+    margin-left: 70px;
+    padding: 20px;
+    font-size: 20px;
+}
+a{
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+img{
+    margin-left: 50px;
+}

@@ -1,0 +1,35 @@
+body{
+    background-color: #f8f8f8;
+}
+.row-span-3 {
+    max-width: 1450px !important;
+}
+.mine{
+    max-width: 1950px !important ;
+    width: 90vw !important;
+}
+
+.h-screen{
+    height: 100vh !important;
+}
+
+
+.my-img{
+    margin-left: 50px;
+}
+
+#scorller{
+    height: 25rem !important;
+}
+.h-\[40rem\]{
+    height: 30rem !important;
+}
+.h-40 {
+  height: 20rem;
+}
+.w-10{
+    width: 4rem !important;
+}
+.h-10{
+    height: 4rem !important;
+}

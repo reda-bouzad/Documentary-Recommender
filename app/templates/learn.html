@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+{% load compress %}
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>Learn</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{% static '/styles/learn.css' %}">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+          <img src="{% static 'images/robot.png' %}/" width="55" height="55" alt="Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="my-li nav-item active">
+          <a class="my-a nav-link" href="home.html">
+            <i class="fa-solid fa-house"></i>
+            Home <span class="sr-only">
+            </span></a>
+        </li>
+        <li class="my-li nav-item">
+          <a class="nav-link" href="learn.html">
+            <i class="fa-sharp fa-solid fa-graduation-cap"></i>            Learn</a>
+        </li>
+        <li class=" my-li nav-item">
+          <a class="nav-link" href="contact.html">
+            <i class="fa-sharp fa-regular fa-address-card"></i>
+            Contact</a>
+        </li>
+        <li class="my-li nav-item">
+          <a class="nav-link" href="about.html">
+            <i class="fa-sharp fa-solid fa-bookmark"></i>
+            About</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+  <div class="container p-3" >
+    <div class="card">
+        <div class="card-header">
+          <h2>Informations générales à propos des chatbots : </h2>
+        </div>
+        <div class="card-body">
+          <ul>
+            <li><a href="#id1"><b>Qu'est-ce qu'un chatbot ?</b></a><br></li>
+            <li><a href="#id2"><b>Comment fonctionne un chatbot ?</b></a><br></li>
+            <li><a href="#id3"><b>Les avantages des chatbots pour les entreprises et les clients</b></a><br></li>
+            <li><a href="#id4"><b>Pourquoi les chatbots ont-ils été créés ?</b></a><br></li>
+            <li><a href="#id5"><b>Comment les chatbots ont-ils évolué ?</b></a><br></li>
+            <li><a href="#id6"><b>Exemples de chatbots célèbres</b></a></li>
+        </ul>
+        </div>
+      </div>
+</div>
+
+
+
+    <div class="container p-3" id="id1" >
+
+        <div class="card">
+            <div class="card-header">
+              Question 1 :
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Qu'est-ce qu'un chatbot ?</h5>
+              <p class="card-text">
+                Un chatbot est un programme informatique qui simule et traite une conversation humaine (écrite ou parlée), permettant aux humains d’interagir avec des terminaux digitaux comme s’ils communiquaient avec une personne réelle. Les chatbots peuvent être aussi simples que des programmes rudimentaires répondant à une requête simple avec une réponse sur une seule ligne, ou aussi sophistiqués que des assistants digitaux qui apprennent et évoluent pour fournir des niveaux de personnalisation croissants à mesure qu’ils collectent et traitent des informations.
+              </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container p-3" id="id2">
+      <div class="card">
+          <div class="card-header">
+            Question 2 :
+          </div>
+          <div class="card-body">
+
+            <h5 class="card-title">Comment fonctionne un chatbot ?</h5>
+            <p class="card-text">
+              Pilotés par l’IA, les règles automatisées, le traitement en langage naturel (TLN) et le machine learning (ML), les chatbots traitent des données pour fournir des réponses à des demandes de toutes sortes.<br><br>
+
+                Il existe deux types principaux de chatbots.
+                <ul>
+                    <li>Les chatbots orientés vers les tâches (déclaratifs) sont des programmes à but unique qui se concentrent sur l’exécution d’une fonction. En utilisant des règles, le traitement TLN et très peu de ML, ils génèrent des réponses automatisées mais conversationnelles aux demandes des utilisateurs. Les interactions avec ces chatbots sont très spécifiques et structurées et s’appliquent mieux aux fonctions de support et de service, telles qu'une FAQ robuste et interactive. Les chatbots axés sur les tâches peuvent traiter des questions courantes, telles que des questions sur les heures de bureau ou des transactions simples ne faisant pas appel à une variété de variables. Bien qu’ils utilisent le TLN pour que les utilisateurs finaux puissent les rencontrer de manière conversationnelle, leurs fonctionnalités sont plutôt basiques. Ce sont actuellement les chatbots les plus couramment utilisés.</li><br>
+                    <li>Les chatbots prédictifs (conversationnels) et basés sur les données sont souvent appelés assistants virtuels ou assistants digitaux. Ils sont beaucoup plus sophistiqués, interactifs et personnalisés que les chatbots axés sur les tâches. Ces chatbots sont sensibles au contexte et exploitent la compréhension en langage naturel (NLU), le TLN et le ML pour apprendre au fur et à mesure. Ils appliquent l’intelligence et l’analyse prédictives pour permettre la personnalisation en fonction des profils et du comportement des utilisateurs précédents. Les assistants numériques peuvent connaître les préférences d’un utilisateur au fil du temps, formuler des recommandations et même anticiper ses besoins. En plus de surveiller les données et les intentions, ils peuvent initier des conversations. Siri d’Apple et Alexa d’Amazon sont des exemples de chatbots prédictifs axés sur le consommateur et basés sur les données.</li>
+                </ul>
+            </p>
+          </div>
+      </div>
+  </div>
+
+  <div class="container p-3" id="id3">
+    <div class="card">
+        <div class="card-header">
+          Question 3 :
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Les avantages des chatbots pour les entreprises et les clients</h5>
+          <p class="card-text">
+            Les chatbots améliorent l’efficacité opérationnelle et permettent aux entreprises de réaliser des économies tout en offrant des services pratiques et supplémentaires à leurs collaborateurs comme à leurs clients. Ils permettent aux entreprises de résoudre facilement de nombreux types de requêtes et de problèmes client tout en réduisant le besoin d’interaction humaine.<br><br>
+
+              Grâce aux chatbots, une entreprise peut évoluer, se personnaliser et être proactive en même temps, ce qui constitue un facteur de différenciation important. Par exemple, lorsqu’une entreprise ne s’appuie que sur le pouvoir humain, une entreprise peut servir un nombre limité de personnes à la fois. Pour être rentables, les entreprises à propulsion humaine sont obligées de se concentrer sur des modèles normalisés et sont limitées dans leurs capacités de diffusion proactive et personnalisées.<br><br>
+
+              En revanche, les chatbots permettent aux entreprises de nouer des relations personnelles avec un nombre illimité de clients et peuvent être augmentés ou réduits en fonction de la demande et des besoins de l’entreprise. En utilisant les chatbots, une entreprise peut fournir un service proactif, personnalisé et humain à la fois, à des millions de personnes.<br><br>
+
+              Une étude de la consommation montre que les applications de messagerie deviennent de plus en plus la méthode privilégiée pour se connecter aux entreprises pour certains types de transactions Livrés via des plateformes de messagerie, les chatbots proposent un niveau de service et de commodité qui, dans de nombreux cas, dépasse ce que les humains peuvent fournir. Par exemple, les chatbots bancaires économisent en moyenne quatre minutes par demande par rapport aux centres d’appels traditionnels. Les mêmes fonctionnalités qui aident les entreprises à améliorer leur efficacité et à réduire leurs coûts offrent également des avantages aux clients sous la forme d’une expérience client améliorée. Tout le monde est gagnant !
+
+          </p>
+        </div>
+      </div>
+</div>
+
+
+<div class="container p-3" id="id4">
+  <div class="card">
+      <div class="card-header">
+        Question 4 :
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Pourquoi les chatbots ont-ils été créés ?</h5>
+        <p class="card-text">
+          Dans le cadre de la numérisation, la société s'oriente vers une utilisation principalement sur mobile. Au fur et à mesure que les applications de messagerie gagnent en popularité, les chatbots jouent un rôle de plus en plus important dans cette transformation axée sur la mobilité. Les chatbots conversationnels intelligents sont souvent des interfaces pour les applications mobiles et modifient la façon dont les entreprises et les clients interagissent.<br><br>
+
+        Les chatbots permettent aux entreprises de se connecter avec les clients de manière personnelle sans les frais de représentants humains. Par exemple, de nombreuses questions ou problèmes rencontrés par les clients sont communs et leur réponse est facile. C’est pourquoi les entreprises créent des FAQ et des guides de dépannage. Les chatbots proposent une alternative personnelle à un guide ou un FAQ écrit et peuvent même trier les questions, y compris le transfert d’un problème client à une personne en direct si le problème devient trop complexe pour être résolu par le chatbot. Les chatbots sont devenus populaires en tant qu’économiseur de temps et d’argent pour les entreprises et de commodité supplémentaire pour les clients.
+
+        </p>
+      </div>
+    </div>
+</div>
+
+<div class="container p-3" id="id5">
+  <div class="card">
+      <div class="card-header">
+        Question 5 :
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Comment les chatbots ont-ils évolué ?</h5>
+        <p class="card-text">
+          L’origine du chatbot remonte sans doute à la conception des machines intelligentes imaginée par Alan Turing dans les années 1950. L’intelligence artificielle, fondement des chatbots, a depuis évolué pour inclure des superordinateurs super intelligents tels qu’IBM Watson.<br><br>
+
+        Le chatbot original était l’arborescence téléphonique, ce qui poussait les clients à s’engager sur une voie souvent encombrante et frustrante consistant à sélectionner une option après l’autre pour passer à travers un modèle de service client automatisé. Les améliorations technologiques et la sophistication croissante de l’IA, du ML et du TLN ont fait évoluer ce modèle en discussions contextuelles, en direct et à l’écran. Et le chemin de l’évolution s’est poursuivi.<br><br>
+
+        Avec les assistants numériques actuels, les entreprises peuvent adapter l’IA pour fournir des interactions beaucoup plus pratiques et efficaces entre entreprises et clients, directement à partir des terminaux numériques des clients.
+        </p>
+      </div>
+    </div>
+</div>
+
+<div class="container p-3" id="id6">
+  <div class="card">
+      <div class="card-header">
+        Question 5 :
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Quelques exemples de chatbots célèbres?</h5>
+        <p class="card-text">
+          <ul class="list-item">
+            <li class="item"><a href="https://chat.openai.com/chat"               target="_blank">ChatGpt</a></li>
+            <li class="item"><a href="https://www.iadvize.com/en/chatbot"         target="_blank">iAdvize</a></li>
+            <li class="item"><a href="https://botnation.ai/en/"                   target="_blank">Botnation</a></li>
+            <li class="item"><a href="https://www.intercom.com/customizable-bots" target="_blank">Intercom</a></li>
+            <li class="item"><a href="https://meetlara.ai/"                       target="_blank">Lara</a></li>
+            <li class="item"><a href="https://bolt.askovet.com/"                  target="_blank">Askovet</a></li>
+            <li class="item"><a href="https://www.askmona.fr/en/chatbot/"         target="_blank">Ask Mona</a></li>
+            <li class="item"><a href="https://www.noci.io/"                       target="_blank">Noci</a></li>
+        </ul>
+         </p>
+      </div>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>

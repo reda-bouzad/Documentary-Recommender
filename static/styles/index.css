@@ -1,0 +1,30 @@
+.row-span-3 {
+    max-width: 1450px !important;
+}
+.mine{
+    max-width: 1450px !important ;
+    width: 90vw !important;
+}
+
+.h-screen{
+    height: 80vh !important;
+}
+
+
+.my-img{
+    margin-left: 50px;
+}
+
+#scorller{
+    height: 20rem !important;
+}
+.h-\[40rem\]{
+    height: 20rem !important;
+}
+.h-40 {
+  height: 20rem;
+}
+
+.reda{
+    background-color: #19A68C;
+}
