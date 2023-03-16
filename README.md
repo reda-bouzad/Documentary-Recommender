@@ -1,6 +1,6 @@
 # ChatBot 🤖
 
-## Description
+## Description 🔥
 This is a simple chatbot that can be used to answer questions about Documentaries , don't know what to watch easy just ask the bot and he will help you figure it out 😆
 
 ## Installation 🔥
